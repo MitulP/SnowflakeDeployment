@@ -1,4 +1,4 @@
 variable "private_key" {
-    type = "string"
+    type = string
   default =  "Voda@1234"
 }

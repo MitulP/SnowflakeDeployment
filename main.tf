@@ -9,7 +9,7 @@ terraform {
 
 provider "snowflake" {
   user     = "LAXMAN"
-  password = "Voda@1234"
+  password = var.private_key
   account  = "zxzxcpt-ys60643"
   role     = "ACCOUNTADMIN"
 

@@ -1,0 +1,5 @@
+{
+    "git.allowForcePush": false,
+    "git.allowNoVerifyCommit": false,
+    "git.autorefresh": true
+}

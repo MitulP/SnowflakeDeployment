@@ -18,3 +18,7 @@ provider "snowflake" {
 module "database" {
   source = "./database"
 }
+
+module "tables" {
+  source = "./tables"
+}

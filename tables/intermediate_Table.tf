@@ -1,7 +1,7 @@
 resource "snowflake_table" "intermediate_table" {
  database = "RAW"
  schema = "PUBLIC"
- name = "raw_table"
+ name = "intermediate_table"
 
 column {
     name = "ID"

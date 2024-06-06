@@ -1,5 +1,5 @@
 resource "snowflake_table" "intermediate_table" {
- database = "intermediate_table"
+ database = "RAW"
  schema = "PUBLIC"
  name = "raw_table"
 

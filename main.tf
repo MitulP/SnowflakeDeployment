@@ -14,3 +14,9 @@ provider "snowflake" {
   role = "ACCOUNTADMIN"
   
 }
+
+module "database" {
+  source = "./database"
+  
+  
+}

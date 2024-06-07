@@ -1,5 +1,5 @@
 resource "snowflake_table" "raw_table" {
- database = "raw"
+ database = "AC2_RAW"
  schema = "PUBLIC"
  name = "raw_table"
 
